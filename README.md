@@ -225,6 +225,73 @@ Check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Preswald is licensed under the [Apache 2.0 License](LICENSE).
 
+
+
+
+# 🌍 Global Health Explorer
+
+An interactive data visualization app built using [Preswald](https://preswald.com) to explore global health indicators by country and year.
+
+This project is part of a technical assessment for **Structured Labs**, focusing on:
+
+- Real-world dataset loading and cleaning
+- SQL-like querying and filtering
+- Building minimal yet functional data-driven UIs
+- Using SDKs like Preswald to compose interactive, Python-backed applications
+
+---
+
+## 🔧 Features
+
+- 📂 Loads and parses the [World Health Indicators dataset](https://www.kaggle.com/datasets/bushraqurban/world-health-indicators-dataset)
+- 🌐 Dropdown filter for selecting a specific country
+- 📊 Auto-detection of numeric health indicators
+- 🎚️ Slider for filtering data by selected indicator thresholds
+- 📈 Scatter plot showing selected indicator over time by country
+- 🧠 Exception handling and inline debug feedback
+
+---
+
+## 📸 Demo Preview
+
+Here’s how the app looks in action:
+
+### ✅ App Overview & Metadata
+![App Deployment Info](./screenshots/1_app_deployment.png)
+
+### 📊 Dataset Loaded
+![Loaded Columns](./screenshots/2_loaded_columns.png)
+
+### 🔍 Dataset Preview
+![First 10 Rows](./screenshots/3_preview_rows.png)
+
+### 🎚️ Filtering and Table View
+![Filtered Table](./screenshots/4_filtered_table.png)
+
+### 📈 Plotly Chart of Indicator Over Time
+![Scatter Plot](./screenshots/5_scatter_plot.png)
+
+---
+
+## 📌 Requirements
+
+- A free [Preswald](https://app.preswald.com) account
+- Google Chrome browser (recommended)
+- The [Kaggle World Health Indicators Dataset](https://www.kaggle.com/datasets/bushraqurban/world-health-indicators-dataset)
+- Basic Python knowledge (Pandas, Plotly)
+
+---
+
+## 📬 Author
+
+**Manan Tiwari**  
+- GitHub: [@manan-T](https://github.com/manan-T)  
+- Built as part of the Structured Labs challenge  
+- Live App URL: *(https://proj_efc08242.preswald.app/)*
+
+---
+
+
 ## ✨ Contributors
 
 Thanks to everyone who has contributed to Preswald 💜
